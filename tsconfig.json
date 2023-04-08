@@ -47,6 +47,12 @@
       ],
       "@lib/domains/*": [
         "libs/domains/src/*"
+      ],
+      "@generator/generator": [
+        "libs/generator/src"
+      ],
+      "@generator/generator/*": [
+        "libs/generator/src/*"
       ]
     }
   }

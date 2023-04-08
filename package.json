@@ -89,7 +89,8 @@
       "^@lib/providers(|/.*)$": "<rootDir>/libs/providers/src/$1",
       "^@lib/shared(|/.*)$": "<rootDir>/libs/shared/src/$1",
       "^@lib/entities(|/.*)$": "<rootDir>/libs/entities/src/$1",
-      "^@lib/domains(|/.*)$": "<rootDir>/libs/domains/src/$1"
+      "^@lib/domains(|/.*)$": "<rootDir>/libs/domains/src/$1",
+      "^@generator/generator(|/.*)$": "<rootDir>/libs/generator/src/$1"
     }
   }
 }
