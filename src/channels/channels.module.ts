@@ -3,4 +3,4 @@ import { Module } from '@nestjs/common';
 @Module({
     imports: [],
 })
-export class ChannelsModule { }
+export class ChannelsModule {}

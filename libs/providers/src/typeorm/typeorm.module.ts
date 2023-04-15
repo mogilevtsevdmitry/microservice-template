@@ -5,4 +5,4 @@ import { appDataSource } from './typeorm.config';
 @Module({
     imports: [TypeOrmModule.forRoot(appDataSource.options)],
 })
-export class TypeormModule { }
+export class TypeormModule {}

@@ -5,11 +5,6 @@ import { ChannelsModule } from './channels/channels.module';
 import { DomainsModule } from './domains/domains.module';
 
 @Module({
-  imports: [
-    SharedModule,
-    ProvidersModule,
-    ChannelsModule,
-    DomainsModule,
-  ],
+    imports: [SharedModule, ProvidersModule, ChannelsModule, DomainsModule],
 })
 export class AppModule {}

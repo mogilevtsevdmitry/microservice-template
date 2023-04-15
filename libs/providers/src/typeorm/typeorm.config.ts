@@ -1,3 +1,4 @@
+import { Logger } from '@nestjs/common';
 import { config } from 'dotenv';
 import { join } from 'path';
 import { DataSource, DataSourceOptions } from 'typeorm';
@@ -8,7 +9,9 @@ config({ path: join(process.cwd(), '.env') });
 const options = (): DataSourceOptions => {
     const url = process.env.DATABASE_URL;
     if (!url) {
-        throw new Error('DATABASE_URL not setted');
+        Logger.error('DATABASE_URL not setted', 'PROVIDERS [TypeOrm]');
+        return;
+        // throw new Error('DATABASE_URL not setted');
     }
     return {
         type: 'postgres',

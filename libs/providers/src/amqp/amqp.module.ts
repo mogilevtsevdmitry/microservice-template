@@ -14,4 +14,4 @@ import { amqpConfig } from './amqp.config';
     providers: [RabbitRpcParamsFactory, AmqpConnectionManager],
     exports: [RabbitMQModule],
 })
-export class AmqpModule { }
+export class AmqpModule {}

@@ -47,15 +47,6 @@
       "compilerOptions": {
         "tsConfigPath": "libs/domains/tsconfig.lib.json"
       }
-    },
-    "generator": {
-      "type": "library",
-      "root": "libs/generator",
-      "entryFile": "index",
-      "sourceRoot": "libs/generator/src",
-      "compilerOptions": {
-        "tsConfigPath": "libs/generator/tsconfig.lib.json"
-      }
     }
   },
   "compilerOptions": {

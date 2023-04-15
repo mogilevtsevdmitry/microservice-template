@@ -3,9 +3,6 @@ import { AmqpModule } from './amqp';
 import { TypeormModule } from './typeorm';
 
 @Module({
-  imports: [
-    TypeormModule,
-    AmqpModule,
-  ],
+    imports: [TypeormModule, AmqpModule],
 })
 export class ProvidersModule {}

@@ -1,5 +1,3 @@
-import { ConfigEntity } from './test.entity';
+import { ConfigEntity } from './config.entity';
 
-export const ENTITIES = [
-    ConfigEntity,
-];
+export const ENTITIES = [ConfigEntity];
