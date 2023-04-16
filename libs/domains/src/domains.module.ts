@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { ConfigDomainModule } from './config-domain';
 
-@Module({})
+@Module({
+    imports: [ConfigDomainModule],
+})
 export class DomainsModule {}
